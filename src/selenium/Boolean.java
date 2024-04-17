@@ -18,7 +18,7 @@ public class Boolean {
 		WebDriver driver = new ChromeDriver();
 		boolean a,b,c;
 		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		WebElement po = driver.findElement(By.xpath("//button[@type-'submit']"));
 		a = po.isDisplayed();
 		b = po.isEnabled();
